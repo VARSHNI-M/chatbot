@@ -1,0 +1,45 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "How are you?", "Is anyone there?", "Good day"],
+            "responses": ["Hello!", "Hi there, how can I assist you today?", "Greetings! How can I help you?"]
+        },
+        {
+            "tag": "leave_application",
+            "patterns": ["How do I apply for leave?", "Leave application process", "I need to take a leave"],
+            "responses": ["You can apply for leave through the HR portal or by contacting your manager.", "To apply for leave, fill out the leave form on our HR system."]
+        },
+        {
+            "tag": "meeting_schedule",
+            "patterns": ["Schedule a meeting", "Book a meeting room", "I need to schedule a meeting"],
+            "responses": ["Please provide the details of the meeting, and I'll assist you with the scheduling.", "To schedule a meeting, please use the meeting scheduler tool on our intranet."]
+        },
+        {
+            "tag": "employee_doubt",
+            "patterns": ["I have a question about my benefits", "What is the process for reimbursement?", "I need help with my timesheet"],
+            "responses": ["For benefit-related queries, you can contact the HR department directly or visit our benefits portal.", "Reimbursement details can be found on the HR page under 'Reimbursements'."]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through meeting schedule, Book a meeting room, leave application process", "I can help to understand the company and assist you to work and socialize in the company","I can do various tasks such as leave application, meeting schedule arrangements,Work alerts and be a companion."],
+         "context": [""]
+        }
+    
+    ]
+}
